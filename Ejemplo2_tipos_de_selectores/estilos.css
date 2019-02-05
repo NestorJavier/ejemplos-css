@@ -1,0 +1,26 @@
+/*
+    selector universal selecciona todos los documentos del documento 
+    html, body, h1 head, etc...
+    para aplicarles algun estilo.
+    Este selector se representa con el caracter "*"
+*/
+
+*{
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Seelector de ID aplica el estilo a un elemento unico del documento*/
+#introduccion{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*Selector de Clase*/
+
+.Importante {
+    color: green;
+}
