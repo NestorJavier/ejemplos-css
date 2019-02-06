@@ -1,45 +1,57 @@
-#encabezado, #pie{
-    background-color: blue;
-    color:white;
-    /*border-color: darkblue;
-    border-style: solid;
-    border-width: 20px;*/
-    border: darkblue solid 20px;
-    padding-left: 30px;
-    padding-top: 40px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 600px;
+#p01, #p21{
+    border-right: black solid 3px;
+    border-left: black solid 3px;
+    
+}
+
+#p10,#p12{
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+    height: 200px;
+    width: 200px;
     margin: 0px auto;
 }
-#contenido{/*
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 40px;*/
-    margin: 20px 40px 30px 30px;
-    background-color: yellow;
+
+#p11{
+    background-color: white;
     color:black;
     /*border-color: darkblue;
     border-style: solid;
     border-width: 20px;*/
-    border: yellowgreen solid 20px;
-    /*padding: 30px 20px 40px 30px;*/
-    padding: 50px 30px;
-    /*
-    padding-left: 30px;
-    padding-top: 40px;
-    padding-right: 20px;
-    padding-bottom: 40px;*/
-    font-size: 40px;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    /*height: 500px;*/
+    border: black solid 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 0px auto;
 }
 
-div{
+#tabla{
+    background-color: white;
+    color:black;
+    /*border-color: darkblue;
+    border-style: solid;
+    border-width: 20px;*/
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    margin: 0px auto;
+}
+
+td{
+    background-color: white;
+    color:black;
+    height: 200px;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
