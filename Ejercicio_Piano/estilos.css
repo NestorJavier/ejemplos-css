@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+th{
+    color: lightblue;
+    border-bottom: lightblue solid 2px;
+}
+/*
+table{
+    width: 700px;
+    margin: 0px auto;
+}
+*/
+.description{
+
+    min-width: 300px;
+    max-width: 500px;
+}
+
+img{
+    border-radius: 15px;
+}
