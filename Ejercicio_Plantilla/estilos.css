@@ -1,0 +1,33 @@
+.relativo{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.absoluto{
+    position: absolute;
+    left: 50px;
+    background: lightgray;
+    top: 50px;
+    margin: 0;
+    z-index: -1;
+}
+
+.fijo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: lightcyan;
+
+}
+
+.titulo{
+    z-index: 1;
+    background: lightgreen;
+}
+
+.flotante{
+    float: left;
+    width: 100px;
+}

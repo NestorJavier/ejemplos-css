@@ -1,0 +1,33 @@
+#enlinea{
+    background-color: yellow;
+    margin: 30px;
+    padding: 10px;
+}
+
+#enbloque{
+    background:yellow;
+    display: block;
+    margin: 30px;
+    padding: 10px;
+}
+
+#en-linea-bloque{
+    background-color: yellow;
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+}
+
+li{
+    display: inline-block;
+    width: 70px;
+    border: solid 1px black;
+}
+
+#productos{
+    display: inline-block;
+}
+
+#acercade{
+    visibility: hidden;
+}
