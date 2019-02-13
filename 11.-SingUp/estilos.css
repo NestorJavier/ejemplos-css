@@ -1,13 +1,19 @@
 body{
     background-color: #344A72;
+    text-align: center;
 
 }
 div{
+    padding-top: 12px;
     width: 400px;
+    
     background-color: white;
-    text-align: center;
     font-family: 'Raleway', sans-serif;
     margin: 0px auto 30px auto;
+}
+
+#encabezados{
+    font-size: 13px;
 }
 
 h1{
@@ -15,14 +21,28 @@ h1{
 }
 
 label{
+    margin-top: 20px;
+    margin-left: 45px;
     display: block;
     text-align: left;
 }
 
+input{
+    width: 300px;
+}
+
 #button{
+
     display: block;
     color: white;
-    width: 250px;
+    height: 35px;
+    width: 315px;
     background-color: #49C1A2;
-    margin: 0px auto 0px auto;
+    margin: 25px auto 25px auto;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
 }
