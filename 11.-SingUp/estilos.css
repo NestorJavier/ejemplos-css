@@ -1,0 +1,28 @@
+body{
+    background-color: #344A72;
+
+}
+div{
+    width: 400px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px auto 30px auto;
+}
+
+h1{
+    color: black;
+}
+
+label{
+    display: block;
+    text-align: left;
+}
+
+#button{
+    display: block;
+    color: white;
+    width: 250px;
+    background-color: #49C1A2;
+    margin: 0px auto 0px auto;
+}

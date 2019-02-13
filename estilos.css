@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+
+}
+
+table{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px auto 30px auto;
+    border-collapse: center;/**/
+
+}
+
+h1, h2, .validador, #autor{
+    text-align: center;
+}
+
+td{
+    border: solid 1px;
+    padding: 20px;
+}
