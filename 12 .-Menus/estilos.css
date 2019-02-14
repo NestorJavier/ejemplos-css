@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu-horizontal{
+    width: 75%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: auto;
+
+}
+
+.navbar{
+    background-color: black; 
+}
+
+.menu-horizontal > li{
+    float: left;
+
+}
+/* Especifica que solo las anclas que se encuentran
+dentro del menu horizontal */
+/* .menu-horizontal > a// Algo asi no funciona ya que la 
+ancla no es un hijo directo del menu horizontal  */
+.menu-horizontal a{
+    padding: 15px 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu-horizontal a:hover{
+    background-color: #446190;
+}
