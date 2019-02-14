@@ -41,8 +41,23 @@ input{
     margin: 25px auto 25px auto;
 }
 
-p{
-    text-align: center;
-    font-size: 15px;
+#terminos{
+    margin-left: 50px;
+    padding-bottom: 20px;
+    font-size: 13px;
     width: 300px;
+}
+
+.textos{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+}
+
+#acount{
+    color: white;
+}
+
+#loghere{
+    color: #49C1A2;
 }
