@@ -8,7 +8,7 @@ body{
 
 }
 
- #logo{
+ #logo, .logoo{
     text-align: center;
     background-color:#343A40;
     padding-top: 5px;
@@ -23,27 +23,13 @@ body{
     border-radius: 3px;
     padding: 9px 0;
     margin: 0 auto 0 auto;
-
 } 
-
-/* #logo{
-    /*border-color: darkblue;
-    border-style: solid;
-    border-width: 20px;
-    text-align: center;
-    border: #343A40 solid 20px;
-    
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    font-size: 10px;
-    width: 600px;
-    margin: 0px auto;
-    box-sizing: border-box;
-} */
-
-
+.hempresariall{
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 #encabezadoPrincipal{
     padding-bottom: 20px;
@@ -76,3 +62,46 @@ body{
     padding-top: 26px;
     width: 100%;
 }
+
+
+@media(min-width: 500px) and (max-width: 760px){
+    #articulo1, #articulo2{
+        width: 48%;
+        float: left;
+    }
+    #articulo1{
+        padding-right: 10px;
+    }
+     #articulo2{
+        padding-left: 10px;
+    } 
+
+     header{
+        overflow: auto;
+    } 
+
+    /* slider{
+        clear: both;
+    } */
+}
+
+ @media(min-width: 760px){
+    #articulo1, #articulo2, #articulo3{
+        width: 31.8889%;
+        float: left;
+    }
+    #articulo1{
+        padding-right: 10px;
+    }
+     #articulo2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #articulo3{
+        padding-left: 10px;
+    }
+ 
+    header{
+        overflow: auto;
+    } 
+} 
